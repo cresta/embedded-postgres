@@ -1,7 +1,6 @@
 package embeddedpostgres
 
 import (
-	"archive/zip"
 	"bytes"
 	"fmt"
 	"io/ioutil"
@@ -11,6 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/klauspost/compress/zip"
 	"github.com/mholt/archiver/v3"
 )
 
