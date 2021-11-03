@@ -6,6 +6,7 @@ go 1.13
 replace github.com/ulikunitz/xz => github.com/ulikunitz/xz v0.5.8
 
 require (
+	github.com/klauspost/compress v1.10.10
 	github.com/lib/pq v1.8.0
 	github.com/mholt/archiver/v3 v3.5.0
 	github.com/stretchr/testify v1.6.1
